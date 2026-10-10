@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AShare</string>
+    <string name="open_with_label">Share…</string>
+    <string name="share_failed">Can\'t share this file</string>
+</resources>
