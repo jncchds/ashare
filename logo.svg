@@ -1,0 +1,14 @@
+<!-- Same geometry as the launcher icon, cropped to the 72dp area a launcher actually shows. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="18" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#29B6F6"/>
+      <stop offset="1" stop-color="#3949AB"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="72" height="72" rx="16" fill="url(#bg)"/>
+  <path d="M70 36 35 54 70 72" fill="none" stroke="#fff" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="35" cy="54" r="10.5" fill="#fff"/>
+  <circle cx="70" cy="36" r="10.5" fill="#fff"/>
+  <circle cx="70" cy="72" r="10.5" fill="#fff"/>
+</svg>
