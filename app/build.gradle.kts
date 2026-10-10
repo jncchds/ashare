@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "dev.ashare"
+    namespace = "ua.pp.chds.ashare"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "dev.ashare"
+        applicationId = "ua.pp.chds.ashare"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
