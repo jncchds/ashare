@@ -8,17 +8,23 @@ AShare registers as a handler for every file type. When you open a file with it,
 display the file — it immediately brings up the Android share sheet, so you can send the file
 to a messenger, mail client, cloud drive or any other app.
 
-Useful wherever an app only offers "Open" but you want to forward the file instead: download
-notifications, file managers, attachments in other apps.
+It also adds a second entry, **Download**, that copies the file into the public Downloads
+folder instead.
+
+Useful wherever an app only offers "Open" but you want to forward or keep the file instead:
+download notifications, file managers, attachments in other apps.
 
 ## Usage
 
-- **From another app:** open a file, choose **Share…** (AShare) in the "Open with" list, then
-  pick where to send it.
+- **Share from another app:** open a file, choose **Share** (AShare) in the "Open with" list,
+  then pick where to send it.
+- **Save from another app:** open a file, choose **Download** (AShare) in the "Open with" list.
+  The file is copied to Downloads; if the name is taken, a number is added, e.g. `file (1).pdf`.
 - **From the launcher:** tap the AShare icon, pick a file, then pick where to send it.
 
-AShare has no screen of its own, requests no permissions and does not copy the file; it passes
-the original on with a temporary read grant.
+AShare has no screen of its own. Sharing does not copy the file; it passes the original on with
+a temporary read grant. Download needs no permissions on Android 10+; on Android 8–9 it asks
+for storage access the first time.
 
 ### Limitations
 
